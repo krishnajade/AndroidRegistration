@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Android Login Form</string>
+
+    <string name="login_form_title">Login</string>
+    <string name="login_form_username">Username</string>
+    <string name="login_form_password">Password</string>
+    <string name="login_form_login">LOGIN</string>
+    <string name="register_form_register">Register Here</string>
+    <string name="forgotPassword">Forgot Password?</string>
+    <string name="registration_form_title">SIGNUP </string>
+    <string name="registration_form_username">Username</string>
+    <string name="registration_form_password">Password</string>
+    <string name="registration_form_registration">Register</string>
+    <string name="forgotpassword_form_forgotpassword">Change Password</string>
+    <string name="forgotPassword_form_title">FORGOT PASSWORD</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="signup_form_signup">Register</string>
+    <string name="forgot_password_form_forgot_password">Change Password</string>
+</resources>
