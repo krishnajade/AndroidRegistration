@@ -8,12 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link home#newInstance} factory method to
- * create an instance of this fragment.
- */
-public class home extends Fragment {
+
+public class HomeFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -24,7 +20,7 @@ public class home extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public home() {
+    public HomeFragment() {
         // Required empty public constructor
     }
 
@@ -37,8 +33,8 @@ public class home extends Fragment {
      * @return A new instance of fragment home.
      */
     // TODO: Rename and change types and number of parameters
-    public static home newInstance(String param1, String param2) {
-        home fragment = new home();
+    public static HomeFragment newInstance(String param1, String param2) {
+        HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
