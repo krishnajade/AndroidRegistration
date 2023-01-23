@@ -29,14 +29,12 @@ public class HomeFragment extends Fragment  {
     private static final String ARG_PARAM2 = "param2";
     LocationManager locationManager;
 
-
     public HomeFragment() {
     }
     public static HomeFragment newInstance(String param1, String param2) {
         HomeFragment fragment = new HomeFragment();
         Bundle args = new Bundle();
-        args.putString(ARG_PARAM1, param1);
-        args.putString(ARG_PARAM2, param2);
+
         fragment.setArguments(args);
         return fragment;
     }
@@ -46,6 +44,7 @@ public class HomeFragment extends Fragment  {
         if (getArguments() != null) {
         }
     }
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {

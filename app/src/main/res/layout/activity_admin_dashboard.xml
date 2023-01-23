@@ -41,10 +41,6 @@
         app:itemIconTint="@color/lavender"
         app:itemTextColor="@color/lavender"/>
 
-    <TextView
-        android:id="@+id/country"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="country"/>
+
 
 </androidx.drawerlayout.widget.DrawerLayout>

@@ -20,4 +20,5 @@
         android:text="Admin"
         android:textColor="@color/white"
         android:textStyle="bold"/>
+
 </LinearLayout>

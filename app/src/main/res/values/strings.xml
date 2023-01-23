@@ -22,4 +22,7 @@
     <string name="close_nav">Close Navigation Drawer</string>
     <string name="state">state</string>
     <string name="country">country</string>
+    <string name="login_again">LOGIN AGAIN</string>
+    <string name="exit">EXIT</string>
+    <string name="you_have_logged_out_successfully">You have logged out successfully!</string>
 </resources>
