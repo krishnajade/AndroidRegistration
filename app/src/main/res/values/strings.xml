@@ -25,4 +25,5 @@
     <string name="login_again">LOGIN AGAIN</string>
     <string name="exit">EXIT</string>
     <string name="you_have_logged_out_successfully">You have logged out successfully!</string>
+    <string name="user_name">User Name</string>
 </resources>

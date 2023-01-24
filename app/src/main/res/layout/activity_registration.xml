@@ -60,6 +60,12 @@
                 android:id="@+id/activity_main_loginButton"
                 android:text="@string/signup_form_signup"
                 android:textSize="22sp"/>
+            <com.developer.gbuttons.GoogleSignInButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/googleBtn"
+                android:text="SIgn in with Google"
+                android:layout_gravity="center"/>
 
 
         </LinearLayout>
