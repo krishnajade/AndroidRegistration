@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity  implements LocationListener
     private EditText passwordEditText;
     Context context;
     TextView country;
+    TextView city;
+    TextView state;
+
+
     LocationManager locationManager;
 
 
@@ -152,6 +156,8 @@ public class MainActivity extends AppCompatActivity  implements LocationListener
             }
         });
         country=findViewById(R.id.country);
+        city=findViewById(R.id.city);
+        state=findViewById(R.id.state);
     }
 
     private void getLocation() {
@@ -208,6 +214,9 @@ public class MainActivity extends AppCompatActivity  implements LocationListener
             Geocoder geocoder=new Geocoder(getApplicationContext(), Locale.getDefault());
             List<Address> addresses= geocoder.getFromLocation(location.getLatitude(), location.getLongitude(),1);
             country.setText(addresses.get(0).getCountryName());
+            state.setText(addresses.get(0).getAdminArea());
+            city.setText(addresses.get(0).getLocality());
+
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

@@ -83,6 +83,18 @@
                 android:layout_height="match_parent"
                 android:text="country"
                 android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="state"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/city"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="city"
+                android:textSize="20sp"/>
 
         </LinearLayout>
 
